@@ -11,4 +11,6 @@
 
 ### Python Programming
 
--
+- Basic Programming
+- Programming Paradigms
+- Modules, packages, libraries
