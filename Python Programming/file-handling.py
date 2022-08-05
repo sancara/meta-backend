@@ -60,7 +60,7 @@ def write_first_line_to_file(file_contents, output_filename):
     """
     ### WRITE SOLUTION HERE
     lines = file_contents.split('\n')
-    f = open(output_filename, 'a')
+    f = open(output_filename, 'w')
     return f.write(lines[0])
   
     raise NotImplementedError()
@@ -121,11 +121,11 @@ Here are some sample commands to help you run/test your implementations.
 Feel free to uncomment/modify/add to them as you wish.
 '''
 def main():
-    # file_contents = read_file("Python Programming/sampletext.txt")
-    # print(read_file_into_list("Python Programming/sampletext.txt"))
-    # write_first_line_to_file(file_contents, "Python Programming/online.txt")
-     print(read_even_numbered_lines("Python Programming/sampletext.txt"))
-     print(read_file_in_reverse("Python Programming/sampletext.txt"))
+    file_contents = read_file("Python Programming/sampletext.txt")
+    print(read_file_into_list("Python Programming/sampletext.txt"))
+    write_first_line_to_file(file_contents, "Python Programming/online.txt")
+    print(read_even_numbered_lines("Python Programming/sampletext.txt"))
+    print(read_file_in_reverse("Python Programming/sampletext.txt"))
 
 if __name__ == "__main__":
     main()
