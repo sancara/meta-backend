@@ -14,5 +14,5 @@
 - Basic Programming
 - Programming Paradigms
 - Modules, packages, libraries
-- Error Handling
+- Errors & Files Handling
 - Projects: ordering system (price calculator),
