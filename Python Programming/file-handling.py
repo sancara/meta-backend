@@ -81,7 +81,14 @@ def read_even_numbered_lines(file_name):
         list: a list of the even-numbered lines of the file
     """
     ### WRITE SOLUTION HERE
-
+    lst1 = []
+    f = open(file_name, 'r')
+    lst = f.read().split('\n')
+    for i, x in enumerate(lst, start = 1):
+        if i % 2 == 0:
+            lst1.append(x)
+    
+    return lst1
     raise NotImplementedError()
 
 def read_file_in_reverse(file_name):
@@ -100,7 +107,13 @@ def read_file_in_reverse(file_name):
         list: list of the lines of the file in reverse order.
     """
     ### WRITE SOLUTION HERE
-
+    lst1 = []
+    f = open(file_name, 'r')
+    lst = f.read().split('\n')
+    for x in lst:
+        lst1.append(x)
+    return lst1[::-1]
+     
     raise NotImplementedError()
 
 '''
@@ -108,11 +121,11 @@ Here are some sample commands to help you run/test your implementations.
 Feel free to uncomment/modify/add to them as you wish.
 '''
 def main():
-    file_contents = read_file("Python Programming/sampletext.txt")
-    print(read_file_into_list("Python Programming/sampletext.txt"))
-    write_first_line_to_file(file_contents, "Python Programming/online.txt")
-    # print(read_even_numbered_lines("sampletext.txt"))
-    # print(read_file_in_reverse("sampletext.txt"))
+    # file_contents = read_file("Python Programming/sampletext.txt")
+    # print(read_file_into_list("Python Programming/sampletext.txt"))
+    # write_first_line_to_file(file_contents, "Python Programming/online.txt")
+     print(read_even_numbered_lines("Python Programming/sampletext.txt"))
+     print(read_file_in_reverse("Python Programming/sampletext.txt"))
 
 if __name__ == "__main__":
     main()
