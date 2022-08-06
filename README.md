@@ -12,7 +12,7 @@
 ### Python Programming
 
 - Basic Programming
-- Programming Paradigms
+- Programming Paradigms (Procedural, Functional, Object-Oriented)
 - Modules, packages, libraries
 - Errors & Files Handling
 - Projects: ordering system (price calculator),
