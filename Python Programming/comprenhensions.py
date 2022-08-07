@@ -73,7 +73,7 @@ def map_id_to_initial(employee_list):
    """
    ### WRITE SOLUTION CODE HERE
    
-   lst = {employee_list[i]['name'][0]:employee_list[i]["id"] for i in range(len(employee_list))}
+   lst = { employee_list[i]['name'][0]:employee_list[i]["id"] for i in range(len(employee_list))}
    return lst
    raise NotImplementedError()
 
