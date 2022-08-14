@@ -16,3 +16,4 @@
 - Modules, packages, libraries
 - Errors & Files Handling
 - Projects: ordering system (price calculator),
+- [Certificate](https://coursera.org/share/c51f493e622f304c310f678928d80947)
