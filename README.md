@@ -17,3 +17,11 @@
 - Errors & Files Handling
 - Projects: ordering system (price calculator),
 - [Certificate](https://coursera.org/share/c51f493e622f304c310f678928d80947)
+
+### Version Control
+
+- Centralized & Distributed
+- Git & GitHub
+- Cloning Repos
+- Staging and Commit
+- Commandline (unix commands)
