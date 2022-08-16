@@ -24,4 +24,4 @@
 - Git & GitHub
 - Cloning Repos
 - Staging and Commit
-- Commandline (unix commands)
+- Command Line (unix commands)
