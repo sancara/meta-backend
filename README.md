@@ -24,4 +24,6 @@
 - Git & GitHub
 - Cloning Repos
 - Staging and Commit
+- Git Blame, Git diff
 - Command Line (unix commands)
+- [Certificate](https://coursera.org/share/0bc3280031489d55f89fe873e46a4a3f)
