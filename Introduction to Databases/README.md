@@ -1,14 +1,14 @@
 # Schemas
 
-## Logical
+### Logical
 
 Describes the structure of the database. Entities and features and their relationship
 
-## Physical
+### Physical
 
 How it is stored, the physical storage of the db. The entire database but at a very low level.
 
-## View
+### View
 
 Describes the database like an external user would want to see it. Only describes the part of the database that the specific user is interested in.
 
@@ -57,4 +57,13 @@ Single purpose for each table. Minimize duplacations, avoid errors during data m
 - Update Anomalies
 - Delete Anomalies
 
-##
+## First Normal Form
+
+Enforce data atomicity rule and eliminate unnecessary repeating groups of data. Atomicity means that you can only have one sigle instance value of the column attribute in any cell of the table.
+
+## Second Normal Form
+
+Avoid any partial dependency relationships between data. It refers to a composite primary key where a non-key attribute value depends only on one part of the composite key.
+
+## Third Normal Form
+No transitive dependency. It should be no dependency in any non-key attribute within the table. For accomplishing this the table must be already in 2NF.
