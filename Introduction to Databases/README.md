@@ -44,3 +44,16 @@ Data, relationships and constraints
 - Key constraint: identifier tahtat can be used to refer to a record. It makes the value on the column UNIQUE
 - Domain constraint: it's the way to validate the data entered correspond to the data type required by the column
 - Referential integrity constraints: Relationships by foreing keys and primary keys. It must be a matching value in the two tables.
+
+# Normalization
+
+1. First Normal Form
+2. Second Normal Form
+3. Third Normal Form
+   Single purpose for each table. Minimize duplacations, avoid errors during data modification and simplify queries from the database.
+
+- Insert Anomalies
+- Update Anomalies
+- Delete Anomalies
+
+##
