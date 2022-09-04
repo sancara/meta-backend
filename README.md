@@ -35,4 +35,4 @@
 - Sorting and filtering data
 - Designing database schema
 - Database normalization
-- [Certificate]()
+- [Certificate](https://coursera.org/share/c862abbb5fca7eeb115a01adf9ad0615)
