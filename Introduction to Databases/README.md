@@ -50,7 +50,8 @@ Data, relationships and constraints
 1. First Normal Form
 2. Second Normal Form
 3. Third Normal Form
-   Single purpose for each table. Minimize duplacations, avoid errors during data modification and simplify queries from the database.
+
+Single purpose for each table. Minimize duplacations, avoid errors during data modification and simplify queries from the database.
 
 - Insert Anomalies
 - Update Anomalies
