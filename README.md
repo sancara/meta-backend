@@ -36,3 +36,9 @@
 - Designing database schema
 - Database normalization
 - [Certificate](https://coursera.org/share/c862abbb5fca7eeb115a01adf9ad0615)
+
+#### Advanced MySQL
+- Store Procedures
+- User Defined Functions
+- 
+-
