@@ -40,5 +40,6 @@
 #### Advanced MySQL
 - Store Procedures
 - User Defined Functions
+- Triggers
+- DB Optimization
 - 
--
