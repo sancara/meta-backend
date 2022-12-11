@@ -42,4 +42,4 @@
 - User Defined Functions
 - Triggers
 - DB Optimization
-- 
+- [Certificate](https://coursera.org/share/f4f6ba8d533e1e6510e3085bbd60ddcf)
