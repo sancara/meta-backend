@@ -9,6 +9,7 @@ Every implementation is hold into a project.
 - `django-admin startproject my_site`
   ![my_site](./images/my_site.png)
 
+
 ### APP
 
 It's a submodule of a project, self contained add functionality to a specific purpose.
@@ -45,6 +46,7 @@ Django manages the database operations with the ORM technique. Migration refers 
 - `python manage.py shell`
   this opens up an interactive python shell inside the project. Useful for some quick interactive operations.
 
+
 ## Setting.py
 
 Django configures specific parameters with their default values and puts them in this file.
@@ -58,14 +60,17 @@ This is a list of strings. Each string represents the path of an app inside the 
 - `python manage.py startapp demoapp`
   ![demoapp](./images/installed_apps.png)
 
+
 ## Urls.py
 
 This script contains a list of object urlpatterns. Every time the client browser requests a URL, the Django server looks to match its pattern and routes the application to the mapped view.
 ![default](./images/urls.py%20default.png)
 
+
 ## Asgi.py
 
 This file is used by the application servers following the ASGI standard to serve asynchronous web applications.
+
 
 ## Wsgi.py
 
