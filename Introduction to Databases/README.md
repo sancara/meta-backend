@@ -4,11 +4,11 @@
 
 Describes the structure of the database. Entities and features and their relationship
 
-### Physical
+### Physical
 
 How it is stored, the physical storage of the db. The entire database but at a very low level.
 
-### View
+### View
 
 Describes the database like an external user would want to see it. Only describes the part of the database that the specific user is interested in.
 
@@ -28,7 +28,7 @@ Supervisor and works. One worker can have two works, one supervisor can supervis
 
 # Relational Model
 
-## Composition
+## Composition
 
 Data, relationships and constraints
 
@@ -39,7 +39,7 @@ Data, relationships and constraints
 - Degree: the number of attributes (columns)
 - Cardinality: number of rows
 
-## Constraints
+## Constraints
 
 - Key constraint: identifier tahtat can be used to refer to a record. It makes the value on the column UNIQUE
 - Domain constraint: it's the way to validate the data entered correspond to the data type required by the column
@@ -65,6 +65,6 @@ Enforce data atomicity rule and eliminate unnecessary repeating groups of data. 
 
 Avoid any partial dependency relationships between data. It refers to a composite primary key where a non-key attribute value depends only on one part of the composite key.
 
-## Third Normal Form
+## Third Normal Form
 
 No transitive dependency. It should be no dependency in any non-key attribute within the table. For accomplishing this the table must be already in 2NF.
