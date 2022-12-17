@@ -43,3 +43,11 @@
 - Triggers
 - DB Optimization
 - [Certificate](https://coursera.org/share/f4f6ba8d533e1e6510e3085bbd60ddcf)
+
+### Django Framework
+- Project / App organization
+- Model Template View
+- Routing / Urls & Views
+- Models / Database / Migrations
+- Templates
+- []()
