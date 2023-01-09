@@ -50,4 +50,5 @@
 - Routing / Urls & Views
 - Models / Database / Migrations
 - Templates
+- Django Admin
 - []()
