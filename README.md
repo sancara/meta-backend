@@ -52,3 +52,11 @@
 - Templates
 - Django Admin
 - []()
+
+### API's
+- Authentication / Authorization
+- REST
+- Serialization / Deserialization
+- Throttling
+- Validation
+- []()
