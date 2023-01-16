@@ -51,7 +51,7 @@
 - Models / Database / Migrations
 - Templates
 - Django Admin
-- []()
+- [Certificate](https://coursera.org/share/efe9f684111ce19024ba9f2e0c6d0069)
 
 ### API's
 - Authentication / Authorization
